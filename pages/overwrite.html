@@ -19,7 +19,11 @@
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/components.css">
 </head>
-
+<style type="text/css">
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
 <body>
   <div id="app">
     <div class="main-wrapper">
@@ -156,11 +160,96 @@
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
-          <div class="section-header">
-            <h1>Blank Page</h1>
+          <div class="section-header text-center">
+            <div class="card col-md-12">
+              <div class="card-header-center text-primary">
+                  <h4>Today's Order</h4>
+              </div>
+              <hr>
+              <div class="summary-info">
+                <h4 class="text-warning">5</h4>
+                <div class="text-muted">21 October 2021</div>
+                <div class="d-block mt-2">
+                  <a href="#over">Overwrite Order</a>
+                </div>
+              </div>
+            </div>
           </div>
-
           <div class="section-body">
+            <div class="row" id="over">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Who's Eat Today?</h4>
+                  <div class="card-header-action">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-btn">
+                        <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <div class="table-responsive table-invoice">
+                    <table class="table table-striped">
+                      <tr>
+                        <th>ID</th>
+                        <th>Employee</th>
+                        <th>Department</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                      </tr>
+                      <tr>
+                        <td><a href="#">212211</a></td>
+                        <td class="font-weight-600">Kusnadi</td>
+                        <td><div class="badge badge-primary">Keuangan</div></td>
+                        <td>Oktober 01, 2021</td>
+                        <td>
+                          <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">412421</a></td>
+                        <td class="font-weight-600">Sumanto</td>
+                        <td><div class="badge badge-primary">Alat Berat</div></td>
+                        <td>Oktober 02, 2021</td>
+                        <td>
+                          <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">342312</a></td>
+                        <td class="font-weight-600">Santo</td>
+                        <td><div class="badge badge-primary">Dapur</div></td>
+                        <td>Oktober 02, 2021</td>
+                        <td>
+                          <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">442212</a></td>
+                        <td class="font-weight-600">Sasongko</td>
+                        <td><div class="badge badge-primary">IT</div></td>
+                        <td>Oktober 05, 2021</td>
+                        <td>
+                          <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">867546</a></td>
+                        <td class="font-weight-600">William</td>
+                        <td><div class="badge badge-primary">Kebersihan</div></td>
+                        <td>Oktober 03, 2021</td>
+                        <td>
+                          <a href="#" class="btn btn-danger">Delete</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
