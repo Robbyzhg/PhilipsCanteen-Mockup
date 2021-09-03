@@ -140,7 +140,7 @@
                 <ul class="dropdown-menu">
                   <li>
                     <a class="nav-link" href="SetCanteenDepartment.html">Set Canteen Department</a>
-                    <a class="nav-link" href="SetVendor`.html">Set Vendor</a>
+                    <a class="nav-link" href="SetVendor.html">Set Vendor</a>
                   </li>
                 </ul>
               </li>`
@@ -162,94 +162,81 @@
         <section class="section">
           <div class="section-header text-center">
             <div class="card col-md-12">
-              <div class="row">
-                <div class="card-center" col-md-2>
-                  <h2>Time</h2>
-                  <br>
-                  <div class="badge badge-pill badge-danger mb-1 float-right">Lunch</div>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <div class="badge badge-pill badge-danger mb-1 float-right">Dinner</div>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <div class="badge badge-pill badge-danger mb-1 float-right">Midnight</div>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <div class="badge badge-pill badge-danger mb-1 float-right">Breakfast</div>
+              <div class="card-body p-0">
+                  <div class="table-responsive table-invoice">
+                    <div class="card-header">
+                      <h4>Set Canteen department</h4>
+                    <div class="card-header-action">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#addModal">
+                            <i class="fas fa-plus"></i>
+                            Add
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <table class="table table-striped">
+                      <tr>
+                        <th>Canteen</th>
+                        <th>Department</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-600">Canteen 1</td>
+                        <td><div class="badge badge-primary">Keuangan</div></td>
+                        <td>21 October - 25 October</td>
+                        <td>
+                          <button data-toggle="modal" data-target="#editModal" class="btn btn-danger">
+                            EDIT
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-600">Canteen 1</td>
+                        <td><div class="badge badge-primary">Alat Berat</div></td>
+                        <td>21 October - 25 October</td>
+                        <td>
+                          <button data-toggle="modal" data-target="#editModal" class="btn btn-danger">
+                            EDIT
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-600">Canteen 2</td>
+                        <td><div class="badge badge-primary">Dapur</div></td>
+                        <td>21 October - 25 October</td>
+                        <td>
+                          <button data-toggle="modal" data-target="#editModal" class="btn btn-danger">
+                            EDIT
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-600">Canteen 2</td>
+                        <td><div class="badge badge-primary">IT</div></td>
+                        <td>21 October - 25 October</td>
+                        <td>
+                          <button data-toggle="modal" data-target="#editModal" class="btn btn-danger">
+                            EDIT
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-600">Canteen 1</td>
+                        <td><div class="badge badge-primary">Kebersihan</div></td>
+                        <td>21 October - 25 October</td>
+                        <td>
+                          <button data-toggle="modal" data-target="#editModal" class="btn btn-danger">
+                            EDIT
+                          </button>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
                 </div>
-                <div class="card-center col-md-5">
-                  <h2>Canteen 1</h2>
-                  <ul class="list-unstyled list-unstyled-border">
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Mamat</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Doni</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Lathif</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak deno</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="card-center col-md-5">
-                  <h2>Canteen 2</h2>
-                  <ul class="list-unstyled list-unstyled-border">
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Mamat</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Doni</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak Lathif</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                    <li class="media draggable" draggable="true">
-                      <img class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png" alt="avatar">
-                      <div class="media-body">
-                        <h6 class="media-title"><a href="#">Cathering Pak deno</a></h6>
-                        <div class="text-small text-muted">21 October 2021</div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -262,6 +249,105 @@
       </footer>
     </div>
   </div>
+
+  <!-- Modal Add -->
+  <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Department</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputState">Department</label>
+                <select id="inputState" class="form-control">
+                  <option selected>...</option>
+                  <option>Operator</option>
+                  <option>Manager</option>
+                  <option>CS</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputState">Canteen</label>
+                <select id="inputState" class="form-control">
+                  <option selected>...</option>
+                  <option>Canteen 1</option>
+                  <option>Canteen 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="dateFrom">From</label>
+              <input type="date" class="form-control" id="dateFrom">
+            </div>
+            <div class="form-group">
+              <label for="dateTo">To</label>
+              <input type="date" class="form-control" id="dateTo">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Edit -->
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Department</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputState">Department</label>
+                <select id="inputState" class="form-control">
+                  <option selected>...</option>
+                  <option>Operator</option>
+                  <option>Manager</option>
+                  <option>CS</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputState">Canteen</label>
+                <select id="inputState" class="form-control">
+                  <option selected>...</option>
+                  <option>Canteen 1</option>
+                  <option>Canteen 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="dateFrom">From</label>
+              <input type="date" class="form-control" id="dateFrom">
+            </div>
+            <div class="form-group">
+              <label for="dateTo">To</label>
+              <input type="date" class="form-control" id="dateTo">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- General JS Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -284,79 +370,5 @@
 
   <!-- Page Specific JS File -->
   <script src="../assets/js/page/index.js"></script>
-  <script type="text/javascript">
-    var btn = document.querySelector('.add');
-var remove = document.querySelector('.draggable');
-
-function dragStart(e) {
-  this.style.opacity = '0.4';
-  dragSrcEl = this;
-  e.dataTransfer.effectAllowed = 'move';
-  e.dataTransfer.setData('text/html', this.innerHTML);
-};
-
-function dragEnter(e) {
-  this.classList.add('over');
-}
-
-function dragLeave(e) {
-  e.stopPropagation();
-  this.classList.remove('over');
-}
-
-function dragOver(e) {
-  e.preventDefault();
-  e.dataTransfer.dropEffect = 'move';
-  return false;
-}
-
-function dragDrop(e) {
-  if (dragSrcEl != this) {
-    dragSrcEl.innerHTML = this.innerHTML;
-    this.innerHTML = e.dataTransfer.getData('text/html');
-  }
-  return false;
-}
-
-function dragEnd(e) {
-  var listItens = document.querySelectorAll('.draggable');
-  [].forEach.call(listItens, function(item) {
-    item.classList.remove('over');
-  });
-  this.style.opacity = '1';
-}
-
-function addEventsDragAndDrop(el) {
-  el.addEventListener('dragstart', dragStart, false);
-  el.addEventListener('dragenter', dragEnter, false);
-  el.addEventListener('dragover', dragOver, false);
-  el.addEventListener('dragleave', dragLeave, false);
-  el.addEventListener('drop', dragDrop, false);
-  el.addEventListener('dragend', dragEnd, false);
-}
-
-var listItens = document.querySelectorAll('.draggable');
-[].forEach.call(listItens, function(item) {
-  addEventsDragAndDrop(item);
-});
-
-function addNewItem() {
-  var newItem = document.querySelector('.input').value;
-  if (newItem != '') {
-    document.querySelector('.input').value = '';
-    var li = document.createElement('li');
-    var attr = document.createAttribute('draggable');
-    var ul = document.querySelector('ul');
-    li.className = 'draggable';
-    attr.value = 'true';
-    li.setAttributeNode(attr);
-    li.appendChild(document.createTextNode(newItem));
-    ul.appendChild(li);
-    addEventsDragAndDrop(li);
-  }
-}
-
-btn.addEventListener('click', addNewItem);
-  </script>
 </body>
 </html>
